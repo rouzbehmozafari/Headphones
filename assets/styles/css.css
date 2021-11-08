@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500&display=swap');
+/* General Styles */
+
+/* Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+}
+a {
+    color: black;
+}
+
+/* Header */
+
+
+/* Footer */
+
+
+
+
+/* Media */
+
+@media screen and (max-width: 800px) {
+   
+}
+
+
+/* Inhalt:
+
+Go beyond music. Immerse your senses through vibration.
+ 
+ 
+ 
+AN ALCHEMY OF DESIGN, CRAFT AND SOUND. 
+Exist to Create. 
+SOUND DESIGN CRAFT 
+We define our world through imagination.
+Sound Alchemy 
+A feeling for sound 
+The power of music is without bounds, it goes straight to our hearts. Our job is to do justice to that power. We make that feeling thrive by creating the most impactful, accurate and immersive sound experience possible.
+Sound Architecture 
+Everything Starts with Architecture 
+Join us in a conversation among a concept developer, an acoustic engineer and a technical project manager taking us through the creation process of a new, ground breaking product
+Beoplay H9 
+Argilla Bright 
+500$ */

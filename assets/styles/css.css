@@ -41,6 +41,23 @@ nav {
     right: 0;
     left: 0;
 }
+form {
+    padding: 50px;
+    text-align: center;
+    background-color:rgb(234, 204, 194) ;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    transform: translateY(-100%);
+    border-radius: 20px;
+}
+form>* {
+    display: block;
+    margin: 5% auto;
+    text-align: center;
+
+}
+
 
 nav ul , nav div{
     display: flex;
@@ -62,7 +79,7 @@ h1 {
     margin-left: 40%;
     font-weight: 400;
     font-size: 30px;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 h3 {
     color: #ebccc2;
@@ -78,7 +95,7 @@ h3 {
 .bordered {
     border-left: 1px white solid;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 9px;
     margin-bottom: 15px;
 }
 aside a {
@@ -204,6 +221,57 @@ video {
 /* Media */
 
 @media screen and (max-width: 800px) {
+   aside {
+       display: none;
+   }
+   nav ul {
+       display: none;
+   }
+   h1 {
+       margin-left: unset;
+   }
+   .design img {
+    width: 90%;
+    }
+   .design article {
+    width: 90%;
+    margin-top: 40px;
+    }
+    section article {
+        width: 90%;
+        margin: auto auto;
+    }
    
-}
+    section {
+        display: block;
+    }
+    .articleTemp {
+        width: 90%;
+        margin-left: 0%;
+    }
+    .lounger , .experience {
+        display: block;
+        align-items: center;
+        margin-top: 10%;
+    }
+    .lounger div , .experience div {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        padding-bottom: 55%;
+        background-image: url(../images/section-voyager.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 150%;
+    }
+    .lounger article, .experience article {
+        margin: auto auto
+    }
+    .fourParts {
+        display: block;
+    }
 
+    .etc {
+        margin: 40px auto;
+    }
+}

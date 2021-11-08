@@ -19,12 +19,12 @@ body {
 a {
     color: black;
 }
-p {
+p , span {
 color: rgb(115, 115, 115) ;
 line-height: 180%;
 font-size: 17px;
 }
-h2 {
+h2 , .beoplay {
     color:#ebccc2 ;
     font-weight: 400;
     font-size: 37px;
@@ -62,6 +62,12 @@ h1 {
     margin-left: 40%;
     font-weight: 400;
     font-size: 30px;
+    margin-top: 10%;
+}
+h3 {
+    color: #ebccc2;
+    font-weight: 400;
+    margin-bottom: 15px;
 }
 .circle{
     padding: 10px;
@@ -82,13 +88,6 @@ aside a {
     color: white;
     margin-left: 15px;
 }
-/* .insideCircle {
-    padding: 8px;
-    border-radius: 8px;
-    border: white solid 1px;
-    display: inline-block;
-    text-align: center;
-} */
  aside {
     position: fixed;
     left: 10px;
@@ -115,11 +114,12 @@ aside a {
     width: 40%;
     margin-left: 5%;
 }
-.lounger {
+.lounger , .experience {
     display: flex;
     align-items: center;
+    margin-top: 10%;
 }
-.lounger div {
+.lounger div , .experience div {
     width: 55%;
     padding-bottom: 55%;
     background-image: url(../images/section-voyager.jpg);
@@ -127,9 +127,75 @@ aside a {
     background-position: center;
     background-size: 150%;
 }
-.lounger h2 {
+.experience div {
+    background-image: url(../images/section-experience-1.jpg);
+}
+.lounger h2 , .experience h2 {
     margin-bottom: 20%;
 }
+.experience {
+    margin-bottom: 10%;
+}
+.inspiration {
+    padding: 10%;
+}
+
+.vid {
+    text-align: center;
+    margin-bottom: 10%;
+}
+video {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.triple span {
+    padding: 3px 6px;
+    border:  white solid 1px;
+}
+.fourParts {
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* place-items: center; */
+}
+
+.fourParts img {
+    width: 100%;
+}
+.fourParts article  {
+    margin-top: 20%;
+}
+.fourParts article {
+    width: 90%;
+}
+/* .shop> img {
+    width: 55%;
+
+} */
+.shop {
+    display: grid;
+    grid-template-columns: .6fr .4fr;
+}
+.shop article {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.shop a {
+    padding:10px 20px;
+    display: inline-block;
+    background-color: #ebccc2;
+}
+.blackk {
+    background-image: url(../images/section-composition4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
 /* Footer */
 
 

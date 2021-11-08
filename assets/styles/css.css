@@ -14,14 +14,122 @@
 
 body {
     max-width: 1440px;
+    background-color:#2e2e2e ;
 }
 a {
     color: black;
 }
-
+p {
+color: rgb(115, 115, 115) ;
+line-height: 180%;
+font-size: 17px;
+}
+h2 {
+    color:#ebccc2 ;
+    font-weight: 400;
+    font-size: 37px;
+    margin-bottom: 25px;
+}
 /* Header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+    position: fixed;
+    /* top: 0; */
+    right: 0;
+    left: 0;
+}
 
-
+nav ul , nav div{
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav * {
+    color: #ebccc2;
+    font-weight: 300;
+}
+.navDistance {
+    padding-left: 50px;
+}
+/* Main */
+h1 {
+    color: #ebccc2;
+    width: 400px;
+    margin-left: 40%;
+    font-weight: 400;
+    font-size: 30px;
+}
+.circle{
+    padding: 10px;
+    border-radius: 15px;
+    border: white solid 1px;
+    display: inline-block;
+}
+.bordered {
+    border-left: 1px white solid;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+aside a {
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+}
+/* .insideCircle {
+    padding: 8px;
+    border-radius: 8px;
+    border: white solid 1px;
+    display: inline-block;
+    text-align: center;
+} */
+ aside {
+    position: fixed;
+    left: 10px;
+    top: 30%;
+}
+.about {
+    padding: 5%;
+}
+.man {
+    width: 100%;
+    display: block;
+    margin: 8% 0;
+}
+.design {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.design img {
+    width: 35%;
+}
+.articleTemp {
+    width: 40%;
+    margin-left: 5%;
+}
+.lounger {
+    display: flex;
+    align-items: center;
+}
+.lounger div {
+    width: 55%;
+    padding-bottom: 55%;
+    background-image: url(../images/section-voyager.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+}
+.lounger h2 {
+    margin-bottom: 20%;
+}
 /* Footer */
 
 
@@ -33,23 +141,3 @@ a {
    
 }
 
-
-/* Inhalt:
-
-Go beyond music. Immerse your senses through vibration.
- 
- 
- 
-AN ALCHEMY OF DESIGN, CRAFT AND SOUND. 
-Exist to Create. 
-SOUND DESIGN CRAFT 
-We define our world through imagination.
-Sound Alchemy 
-A feeling for sound 
-The power of music is without bounds, it goes straight to our hearts. Our job is to do justice to that power. We make that feeling thrive by creating the most impactful, accurate and immersive sound experience possible.
-Sound Architecture 
-Everything Starts with Architecture 
-Join us in a conversation among a concept developer, an acoustic engineer and a technical project manager taking us through the creation process of a new, ground breaking product
-Beoplay H9 
-Argilla Bright 
-500$ */
